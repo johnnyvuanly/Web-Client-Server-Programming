@@ -4,7 +4,7 @@ p {
 }
 
 h1 {
-    color: red;
+    color: aquamarine;
     font-size: 48px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ li {
 }
 
 a {
-    background-color: lightgreen;
+    background-color: aquamarine;
     /* No underline for links */
     text-decoration: none;
 }
@@ -38,19 +38,22 @@ unordered list */
 
 /* Changing the class elements of the page named second-favorite */
 .second-favorite {
-    background-color:yellowgreen;
+    background-color:aquamarine;
 }
 
-#page-title {
-    text-shadow: 10px 4px lightpink;
-}
+#page-title { 
+    text-shadow: 1px 20px lightpink;
+    font-family: 'Times New Roman', Times, serif;
+} 
 
 #favorite-music-name {
-    background-color: lightpink;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: red;
 }
 
 .favorite-section {
-    background-color: lightseagreen;
+    background-color: lightcyan;
     /* Line around an element. Width, Color, Style. */
     border: 3px black double;
     /* Sepertates an element from its neighbors */
@@ -58,3 +61,27 @@ unordered list */
     /* Between the border and the content */
     padding: 15px;
 }
+
+.section-header { 
+    background-color: lightpink;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Use # for id tags */
+#favorite-movie-title {
+    font-style: italic;
+    color: red;
+}
+
+#most-favorite-food {
+    font-style: italic;
+}
+
+/* Use . for class tags */
+.favorite-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
